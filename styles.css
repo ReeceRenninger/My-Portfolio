@@ -1,0 +1,56 @@
+/* Git section */
+.github-graph {
+  margin-bottom: 30px;
+  .js-calendar-graph-svg{
+      max-width:100%;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+}
+
+/* Git section */
+.github-graph {
+  margin-bottom: 30px;
+}
+
+.github-graph .js-calendar-graph-svg {
+  max-width: 100%;
+}
+
+.github-graph h2 {
+  font-size: 18px;
+}
+
+.ghfeed {
+  height: 500px;
+}
+
+.ghfeed,
+.ghfeed *,
+.ghfeed *:before,
+.ghfeed *:after {
+  box-sizing: content-box;
+}
+
+/* Container for the sections */
+.section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed, e.g., 'space-between' or 'space-around' */
+  align-items: flex-start; /* Adjust as needed, e.g., 'flex-start', 'center', or 'flex-end' */
+  gap: 20px; /* Adjust the gap between sections */
+}
+
+.list.music {
+  flex: 1; /* Allow the music section to grow and take available space */
+  /* Add any other specific styles for your music section here */
+}
+
+.other-section {
+  flex: 1; /* Allow the other section to grow and take available space */
+  /* Add any other specific styles for the other section here */
+}
+
+@import "dark-mode";
